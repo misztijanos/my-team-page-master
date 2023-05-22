@@ -1,0 +1,28 @@
+@use '../utils' as *;
+.header {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+
+  @include tablet-and-up {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    flex-direction: row;
+    gap: 130px;
+    justify-content: space-around;
+  }
+
+  &--title {
+    flex-shrink: 0;
+  }
+
+  &--side {
+    @include tablet-and-up {
+      max-width: max(340px, 30%);
+    }
+
+    p {
+      margin-top: 10px;
+    }
+  }
+}

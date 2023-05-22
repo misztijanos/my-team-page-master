@@ -1,0 +1,9 @@
+//only one breakpoint, no need for sass maps
+
+$breakpoint: 700px;
+
+@mixin tablet-and-up {
+  @media (min-width: $breakpoint) {
+    @content;
+  }
+}

@@ -1,0 +1,10 @@
+.footer {
+  font-family: var(--font-footer);
+  color: var(--gray);
+  text-align: center;
+  a {
+    font-weight: 700;
+    text-decoration: underline;
+  }
+  font-size: 12px;
+}

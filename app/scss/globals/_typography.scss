@@ -1,0 +1,27 @@
+h1 {
+  font-family: var(--font-title);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 48px;
+  letter-spacing: -0.045em;
+}
+
+h2 {
+  font-family: var(--font-content);
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+
+  /* identical to box height */
+  text-transform: uppercase;
+}
+
+p {
+  font-family: var(--font-content);
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
